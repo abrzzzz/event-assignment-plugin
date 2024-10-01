@@ -10,9 +10,11 @@ This project is an assignment,
 ### Install  
 - Run `git clone https://github.com/abrzzzz/wp-event-assignment`
 - go to the plugin directory (`cd your_dirs/wp-content/plugins/wp-event-assignment`)
+- Make sure `storage/plugin/views/` directories are exist. if not, it could prevent activation of the plugin
 - Run `composer install`
 - Run `npm install`
 - Run `npm run dev`
+- Activate the plugin
 
 ### Caveats
 
