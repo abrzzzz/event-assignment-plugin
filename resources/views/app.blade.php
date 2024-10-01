@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html >
   <head>
-    @php
-       wp_head();
-    @endphp
+    <title>Events app</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <script type="module">
@@ -20,8 +18,5 @@
   <body>
     @inertia
 
-    @php
-        wp_footer();
-    @endphp
   </body> 
 </html>
